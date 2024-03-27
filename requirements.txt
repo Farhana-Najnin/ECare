@@ -17,6 +17,7 @@ discord
 discord.py
 dj-database-url
 Django
+django-cors-headers
 django-crispy-forms
 django-email
 django-environ
@@ -66,6 +67,7 @@ sqlparse
 svglib
 tinycss2
 typing_extensions
+tzdata
 tzlocal
 uritools
 urllib3
