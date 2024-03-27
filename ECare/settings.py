@@ -30,9 +30,9 @@ DEBUG = True
 ALLOWED_HOSTS = ["*"]
 CORS_ORIGIN_ALLOW_ALL = True
 CSRF_TRUSTED_ORIGINS= ['https://ecare-k9g6.onrender.com/','https://*.127.0.0.1']
-CORS_ORIGIN_WHITELIST = (
-  'http://localhost:8000',
-)
+# CORS_ORIGIN_WHITELIST = (
+#   'http://localhost:8000',
+# )
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'corsheaders',
+    # 'corsheaders',
     'appointment',
     'doctor',
     'contact_us',
